@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\personal\\C#\\Internet_Shop_Kateryna\\ClassLibrary1\\AppContext.csproj": {}
+  },
+  "projects": {
+    "D:\\personal\\C#\\Internet_Shop_Kateryna\\ClassLibrary1\\AppContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\personal\\C#\\Internet_Shop_Kateryna\\ClassLibrary1\\AppContext.csproj",
+        "projectName": "AppContext",
+        "projectPath": "D:\\personal\\C#\\Internet_Shop_Kateryna\\ClassLibrary1\\AppContext.csproj",
+        "packagesPath": "C:\\Users\\kateryna.puzyrna\\.nuget\\packages\\",
+        "outputPath": "D:\\personal\\C#\\Internet_Shop_Kateryna\\ClassLibrary1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kateryna.puzyrna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\personal\\C#\\Internet_Shop_Kateryna\\MVC-Kateryna\\MVC-Kateryna.csproj": {
+                "projectPath": "D:\\personal\\C#\\Internet_Shop_Kateryna\\MVC-Kateryna\\MVC-Kateryna.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\personal\\C#\\Internet_Shop_Kateryna\\MVC-Kateryna\\MVC-Kateryna.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\personal\\C#\\Internet_Shop_Kateryna\\MVC-Kateryna\\MVC-Kateryna.csproj",
+        "projectName": "MVC-Kateryna",
+        "projectPath": "D:\\personal\\C#\\Internet_Shop_Kateryna\\MVC-Kateryna\\MVC-Kateryna.csproj",
+        "packagesPath": "C:\\Users\\kateryna.puzyrna\\.nuget\\packages\\",
+        "outputPath": "D:\\personal\\C#\\Internet_Shop_Kateryna\\MVC-Kateryna\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kateryna.puzyrna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.Build": {
+              "target": "Package",
+              "version": "[17.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

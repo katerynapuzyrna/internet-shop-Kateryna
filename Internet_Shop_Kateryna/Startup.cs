@@ -31,13 +31,12 @@ namespace Internet_Shop_Kateryna
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+           
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -47,12 +46,27 @@ namespace Internet_Shop_Kateryna
                 app.UseExceptionHandler("/Error");
                 app.UseHsts();
             }
-
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
+            app.UseRouting();
 
-            app.UseMvc();
+            app.UseEndpoints(endpoint =>
+                {
+                    endpoint.MapGet("/", async context =>
+                    {
+                        await context.Response.WriteAsync("Hello! This is a board game shop.");
+                    });
+                    endpoint.MapGet("/home", async context =>
+                    {
+                        await context.Response.WriteAsync("Hello! This is the home page.");
+                    });
+                    endpoint.MapGet("/error", async context =>
+                    {
+                        await context.Response.WriteAsync("Error");
+                    });
+                });
+
         }
     }
 }

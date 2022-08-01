@@ -1,0 +1,21 @@
+﻿@model List<ShopModel>
+
+@{
+    ViewData["Title"] = "Shop";
+}
+
+@foreach (var t in Model)
+{
+    <h1>
+       Shop:
+    </h1>
+    <p>
+        <strong>City:</strong> <code>@t.City</code>
+    </p>
+    <p>
+        <strong>Address:</strong> <code>@t.Address</code>
+    </p>
+    <p>
+        <strong>Contact Phone:</strong> <code>@t.ContactPhone</code>
+    </p>
+}

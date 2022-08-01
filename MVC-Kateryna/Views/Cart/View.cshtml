@@ -1,0 +1,18 @@
+﻿@model List<CartModel>
+
+@{
+    ViewData["Title"] = "Cart";
+}
+
+@foreach (var t in Model)
+{
+    <h1>
+        Item in the Cart:
+    </h1>
+    <p>
+        <strong>Name:</strong> <code>@t.Name</code>
+    </p>
+    <p>
+        <strong>Price:</strong> <code>@t.Price</code>
+    </p>
+}
